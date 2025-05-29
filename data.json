@@ -1,0 +1,83 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, welcome to our hydraulic and valve services!", "Good to see you here", "Hi there, how can I assist you with hydraulic equipment or valves today?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you! Have a great day ahead", "Thank you for visiting", "Goodbye! Feel free to return anytime."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Glad to be of help!", "You're welcome!", "My pleasure."],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["I'm sorry, I didn't catch that. Could you provide more information?", "Please give me more details, I'm not sure I understand."],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How can you help me?", "What services do you offer?", "What assistance do you provide?", "How can you assist me?", "What support is available?"],
+     "responses": ["We offer a range of services including hydraulic equipment support, valve automation solutions, and more. How can I assist you today?"],
+     "context": [""]
+    },
+    {"tag": "hydraulic_equipment",
+     "patterns": ["How can I get help with hydraulic equipment?", "Open hydraulic equipment support", "List services for hydraulic systems", "Assistance with hydraulic equipment", "Hydraulic equipment maintenance" ],
+     "responses": ["Navigating to Hydraulic Equipment support module"],
+     "context": [""]
+    },
+    {"tag": "valve_automation",
+     "patterns": ["Open valve automation solutions", "Tasks related to valve automation", "Valve automation support", "Valve automation system management", "Valve automation troubleshooting" ],
+     "responses": ["Navigating to Valve Automation solutions module"],
+     "context": [""]
+    },
+    {"tag": "valve_automation_search",
+     "patterns": ["Search for valve automation solutions", "Find valve automation options", "Locate valve automation systems", "Show valve automation products", "Find valve automation by ID" ],
+     "responses": ["Please provide the specific details you're looking for."],
+     "context": ["search_valve_automation_by_details"]
+    },
+    {"tag": "search_valve_automation_by_details",
+     "patterns": [],
+     "responses": ["Loading valve automation details"],
+     "context": [""]
+    },
+    {"tag": "industrial_valves",
+     "patterns": ["How to find industrial valves?", "Open industrial valves section", "List of industrial valve types", "Valves suitable for industrial use", "Which valves are suitable for specific industries?" ],
+     "responses": ["Navigating to Industrial Valves section"],
+     "context": [""]
+    },
+    {"tag": "industrial_valve_search",
+     "patterns": ["Search for industrial valves", "Find industrial valve types", "Locate industrial valves", "Show industrial valve products", "Find industrial valves by ID" ],
+     "responses": ["Please provide the specific details you're looking for."],
+     "context": ["search_industrial_valves_by_details"]
+    },
+    {"tag": "search_industrial_valves_by_details",
+     "patterns": [],
+     "responses": ["Loading industrial valve details"],
+     "context": [""]
+    },
+    {"tag": "pharmacy_search",
+     "patterns": ["Find me a hydraulic equipment supplier", "Find hydraulic equipment provider", "List of hydraulic equipment suppliers nearby", "Locate hydraulic equipment supplier", "Search hydraulic equipment provider" ],
+     "responses": ["Please provide the name or details of the hydraulic equipment supplier you're looking for."],
+     "context": ["search_hydraulic_supplier_by_details"]
+    },
+    {"tag": "search_hydraulic_supplier_by_details",
+     "patterns": [],
+     "responses": ["Loading hydraulic equipment supplier details"],
+     "context": [""]
+    },
+    {"tag": "hospital_search",
+     "patterns": ["Lookup for valve service provider", "Searching for valve automation service", "I want to find valve service provider", "Valve service provider lookup", "Looking up valve service provider details" ],
+     "responses": ["Please provide the name or location of the valve service provider you're searching for."],
+     "context": ["search_valve_service_provider_by_details"]
+    },
+    {"tag": "search_valve_service_provider_by_details",
+     "patterns": [],
+     "responses": ["Loading valve service provider details"],
+     "context": [""]
+    }
+]
+}
